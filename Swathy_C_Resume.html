@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Swathy C — Resume</title>
+<style>
+  @page { size: A4 portrait; margin: 7mm 14mm; }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: Calibri, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 10.6px;
+    color: #111;
+    background: #fff;
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 8px 32px 8px;
+    line-height: 1.3;
+  }
+
+  .r-name { font-size: 28px; font-weight: 800; letter-spacing: 1px; margin-bottom: 3px; color: #111; line-height: 1; }
+
+  .r-contact-row { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; font-size: 10.3px; color: #111; margin-bottom: 1px; }
+  .r-contact-row a { color: #111; text-decoration: none; }
+  .c-item { display: flex; align-items: center; gap: 4px; }
+  .c-icon { width: 12px; height: 12px; flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; }
+  .li-badge { display: inline-flex; align-items: center; justify-content: center; width: 12px; height: 12px; background: #0077b5; color: #fff; font-size: 7px; font-weight: 800; border-radius: 2px; flex-shrink: 0; }
+
+  .sec-title { font-size: 9.8px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; border-bottom: 1.2px solid #111; padding-bottom: 1px; margin-top: 5px; margin-bottom: 3px; color: #111; }
+
+  .row { display: table; width: 100%; table-layout: fixed; }
+  .row-left  { display: table-cell; vertical-align: baseline; }
+  .row-right { display: table-cell; vertical-align: baseline; text-align: right; white-space: nowrap; width: 148px; font-size: 10.3px; color: #333; font-variant-numeric: tabular-nums; }
+
+  .exp-block { margin-bottom: 4px; }
+  .exp-company { font-size: 10.8px; font-weight: 700; color: #111; }
+  .exp-meta    { font-size: 10.3px; color: #444; }
+
+  .blist { list-style: disc; padding-left: 13px; margin: 1px 0 0; }
+  .blist li { font-size: 10.3px; color: #111; margin-bottom: 1px; line-height: 1.28; }
+
+  .proj-block { margin-bottom: 4px; }
+  .proj-name  { font-size: 10.8px; font-weight: 700; }
+  .proj-stack { font-size: 9.8px; font-style: italic; color: #555; }
+
+  .edu-block  { margin-bottom: 3px; }
+  .edu-school { font-size: 10.8px; font-weight: 700; }
+  .edu-detail { font-size: 9.8px; color: #444; }
+
+  .skill-row { font-size: 10.3px; margin-bottom: 1.5px; }
+  .cert-item { font-size: 10.3px; margin-bottom: 1.5px; }
+
+  .hack-grid { display: grid; grid-template-columns: 1fr 1fr; column-gap: 20px; row-gap: 1.5px; }
+  .hack-item { font-size: 10.3px; padding-left: 11px; position: relative; line-height: 1.28; }
+  .hack-item::before { content: '•'; position: absolute; left: 0; }
+
+  .mem-item { font-size: 10.3px; margin-bottom: 1.5px; }
+
+  @media print { body { padding: 0; max-width: 100%; } }
+</style>
+</head>
+<body>
+
+<div class="r-name">SWATHY C</div>
+
+<div class="r-contact-row">
+  <div class="c-item">
+    <span class="c-icon"><svg viewBox="0 0 16 16" fill="none" width="12" height="12"><rect x="1" y="3" width="14" height="10" rx="1.5" stroke="#444" stroke-width="1.3"/><path d="M1.5 4L8 9.5L14.5 4" stroke="#444" stroke-width="1.3" stroke-linecap="round"/></svg></span>
+    <a href="https://mail.google.com/mail/?view=cm&amp;to=swathychandrasekar729@gmail.com" target="_blank">swathychandrasekar729@gmail.com</a>
+  </div>
+  <div class="c-item">
+    <span class="c-icon"><svg viewBox="0 0 16 16" fill="none" width="10" height="12"><path d="M8 1C5.79 1 4 2.79 4 5c0 3.5 4 9 4 9s4-5.5 4-9c0-2.21-1.79-4-4-4z" stroke="#444" stroke-width="1.2"/><circle cx="8" cy="5" r="1.5" stroke="#444" stroke-width="1.1"/></svg></span>
+    <a href="https://www.google.com/maps/search/No+43%2F19+Thangavelu+Street%2C+Vetri+Nagar%2C+Chennai+600082" target="_blank">Chennai, India</a>
+  </div>
+  <div class="c-item">
+    <span class="c-icon"><svg viewBox="0 0 16 16" fill="none" width="12" height="12"><path d="M3 2h3l1.5 3.5-1.5 1c.8 1.6 2 2.8 3.5 3.5l1-1.5L14 10v3c0 .6-.5 1-1 1C5.5 14 2 8.5 2 3c0-.5.4-1 1-1z" stroke="#444" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    <a href="tel:+919361144379">9361144379</a>
+  </div>
+  <div class="c-item">
+    <span class="li-badge">in</span>
+    <a href="https://www.linkedin.com/in/swathy-chandrasekar" target="_blank">swathy-chandrasekar</a>
+  </div>
+  <div class="c-item">
+    <span class="c-icon"><svg viewBox="0 0 16 16" fill="none" width="12" height="12"><path d="M6.5 9.5a4 4 0 0 0 5.66 0l2-2a4 4 0 0 0-5.66-5.66l-1 1" stroke="#444" stroke-width="1.2" stroke-linecap="round"/><path d="M9.5 6.5a4 4 0 0 0-5.66 0l-2 2a4 4 0 0 0 5.66 5.66l1-1" stroke="#444" stroke-width="1.2" stroke-linecap="round"/></svg></span>
+    <a href="https://swathy-portfolio-ivory.vercel.app/" target="_blank">swathy-portfolio</a>
+  </div>
+</div>
+
+<div class="sec-title">Profile</div>
+<p style="font-size:10.5px;color:#222;line-height:1.38;margin-bottom:0;">GenAI Developer with hands-on experience building production-ready AI applications using LLMs, Python, Azure OpenAI, and RAG. Skilled in developing enterprise AI solutions, AI guardrails, semantic search, real-time meeting interpreters, and scalable AI APIs.</p>
+
+<div class="sec-title">Experience</div>
+
+<div class="exp-block">
+  <div class="row">
+    <div class="row-left"><span class="exp-company">Prodapt</span><span class="exp-meta"> &nbsp;|&nbsp; Guindy, Chennai &nbsp;|&nbsp; GenAI Developer Intern</span></div>
+    <div class="row-right">Dec 2025 – Present</div>
+  </div>
+  <ul class="blist">
+    <li><strong>Language Translator Widget</strong> — Built in-place translation widget using Python to extract text from audio and text files; integrated <strong>Gemma</strong> and <strong>Azure Translator</strong> backends for multi-format document translation.</li>
+    <li><strong>Invoice Extractor</strong> — Parsed multi-format PDF invoices; mapped extracted fields to <strong>SAP schema</strong> and auto-populated into Excel for client workflows.</li>
+    <li><strong>Talent Match Assistant</strong> — Designed <strong>Neo4j graph DB</strong> schema mapping candidate skills to JDs via Cypher queries; implemented LLM-based interview question generation from resumes.</li>
+    <li><strong>PII Masker Widget</strong> — Combined <strong>Presidio</strong>, <strong>spaCy NER</strong>, and regex to detect and redact PII across document types.</li>
+    <li><strong>ML-Based Guardrails</strong> — Applied <strong>reinforcement learning</strong> and embeddings to detect toxic content; implemented fallback guardrails over LlamaGuard-based pipelines.</li>
+    <li><strong>Real-Time Meeting Interpreter</strong> — Integrated <strong>WebSockets</strong> with <strong>OpenAI</strong> and <strong>Azure Speech</strong>; built <strong>React</strong> frontend; enabled live transcription, web/screen sharing, and meeting bot.</li>
+    <li><strong>Advance Test Case Generator</strong> — Built a <strong>WebSocket</strong>-based live streaming pipeline with <strong>LangChain</strong> to generate classifiable test cases from uploaded docs/user stories, with on-demand test data for exploratory testing.</li>
+    <li><strong>Token Optimizer</strong> — Built an LLM gateway wrapper using an <strong>SLM</strong> to route queries to the lowest-cost capable model, with prompt optimization and response caching to cut token consumption and reduce overall LLM API costs.</li>
+  </ul>
+</div>
+
+<div class="exp-block">
+  <div class="row">
+    <div class="row-left"><span class="exp-company">Infosys Springboard</span><span class="exp-meta"> &nbsp;|&nbsp; Virtual &nbsp;|&nbsp; Machine Learning Intern</span></div>
+    <div class="row-right">Dec 2025 – Mar 2026</div>
+  </div>
+  <ul class="blist">
+    <li>Built IPL match win prediction using <strong>XGBoost</strong> on historical datasets; feature-engineered run rate, strike rate, and wickets; saved deployment-ready models.</li>
+  </ul>
+</div>
+
+<div class="exp-block">
+  <div class="row">
+    <div class="row-left"><span class="exp-company">Altrocks Tech</span><span class="exp-meta"> &nbsp;|&nbsp; Chennai &nbsp;|&nbsp; Software Developer Intern</span></div>
+    <div class="row-right">Feb 2024</div>
+  </div>
+  <ul class="blist">
+    <li>Contributed to front-end and back-end tasks using <strong>Java</strong> and <strong>HTML</strong>; gained foundational full-stack web development experience.</li>
+  </ul>
+</div>
+
+<div class="exp-block">
+  <div class="row">
+    <div class="row-left"><span class="exp-company">Evolve Robot Lab</span><span class="exp-meta"> &nbsp;|&nbsp; Chennai &nbsp;|&nbsp; Junior Research Fellow</span></div>
+    <div class="row-right">Jan – Feb 2024</div>
+  </div>
+  <ul class="blist">
+    <li>Designed and simulated robotic circuits with <strong>Tinkercad</strong> and <strong>Arduino</strong> for real-time embedded control, emphasising sensor integration and microcontroller programming.</li>
+  </ul>
+</div>
+
+<div class="sec-title">Projects</div>
+
+<div class="proj-block">
+  <span class="proj-name">Smart IoT Dustbin for Automated Waste Segregation</span><span class="proj-stack"> &nbsp;|&nbsp; ESP32-CAM, Roboflow, Python, IoT</span>
+  <ul class="blist" style="margin-top:1px;"><li>Built a ₹5,000 smart dustbin using ESP32-CAM and Roboflow-trained ML model (92% accuracy); achieved 100% hands-free disposal and ~60% reduction in manual segregation time.</li></ul>
+</div>
+
+<div class="proj-block">
+  <span class="proj-name">Defect Classification of Bearings using CNN</span><span class="proj-stack"> &nbsp;|&nbsp; PyTorch, CNN, Computer Vision</span>
+  <ul class="blist" style="margin-top:1px;"><li>Achieved 95%+ accuracy in real-time bearing defect classification; improved predictive maintenance efficiency by 30% and reduced machine downtime by 20%.</li></ul>
+</div>
+
+<div class="proj-block">
+  <span class="proj-name">Business Performance Dashboard</span><span class="proj-stack"> &nbsp;|&nbsp; Power BI, DAX, Data Modeling</span>
+  <ul class="blist" style="margin-top:1px;"><li>Unified product, customer, and regional dashboards into a single Power BI executive view; improved decision-making efficiency by 35%.</li></ul>
+</div>
+
+<div class="sec-title">Education</div>
+
+<div class="edu-block">
+  <div class="row">
+    <div class="row-left"><span class="edu-school">Rajalakshmi Engineering College &nbsp;|&nbsp; B.E Mechatronics Engineering</span></div>
+    <div class="row-right">CGPA: 9.3 &nbsp;|&nbsp; 2022 – 2026</div>
+  </div>
+  <div class="edu-detail">Coursework: Machine Learning, Embedded Systems, Robotics, IoT, Control Systems, Python Programming</div>
+</div>
+<div class="edu-block">
+  <div class="row">
+    <div class="row-left"><span class="edu-school">HSC — Velammal Matriculation Hr. Sec. School</span></div>
+    <div class="row-right">89.66% &nbsp;|&nbsp; 2022</div>
+  </div>
+</div>
+<div class="edu-block">
+  <div class="row">
+    <div class="row-left"><span class="edu-school">SSLC — St. Mary's Matriculation Girls Hr. Sec. School</span></div>
+    <div class="row-right">93.66% &nbsp;|&nbsp; 2020</div>
+  </div>
+</div>
+
+<div class="sec-title">Skills</div>
+<div class="skill-row"><strong>Technical:</strong> Python, Generative AI, LLMs, Prompt Engineering, LangChain, Hugging Face Transformers, FastAPI, REST APIs, Vector Databases, Neo4j, NumPy, Pandas, Git, Power BI</div>
+<div class="skill-row"><strong>Soft Skills:</strong> Problem Solving, Teamwork, Time Management</div>
+
+<div class="sec-title">Certifications</div>
+<div class="cert-item"><strong>NPTEL:</strong> Entrepreneurship Essentials, Social Innovation in Industry 4.0, Introduction to IoT, Understanding Incubation and Entrepreneurship, Work System and Design.</div>
+<div class="cert-item"><strong>LinkedIn:</strong> Learning Python, Machine Learning with Python, Applied Machine Learning Algorithms, Full Stack Web Development, Java Algorithms, Learning MATLAB.</div>
+<div class="cert-item"><strong>TVS Training:</strong> Data Analytics in Microsoft and Power BI. &nbsp;&nbsp;<strong>Coursera:</strong> AI for Everyone.</div>
+
+<div class="sec-title">Hackathons &amp; Achievements</div>
+<div class="hack-grid">
+  <div class="hack-item"><strong>1st Prize</strong> — 24-Hour Hackathon, VIT Chennai (AR &amp; VR)</div>
+  <div class="hack-item"><strong>3rd Prize</strong> — Project Expo, Devs Club REC</div>
+  <div class="hack-item"><strong>1st Prize</strong> with Dr. Srinivasan Award — 36-Hour Hackathon "XYNTHRA'25" (Top 33/250+)</div>
+  <div class="hack-item"><strong>Top 45 teams</strong> from 250+ — Smart India Hackathon selection</div>
+  <div class="hack-item"><strong>Best Innovation Award</strong> — 33-Hour Hackathon, Dept. of Mechanical Engg, REC</div>
+  <div class="hack-item">Recognised <strong>Top Performer</strong> in department — 6 consecutive semesters</div>
+  <div class="hack-item"><strong>Special Prize</strong> — Women's Hackathon by TANCAM</div>
+  <div class="hack-item"><strong>2nd Prize</strong> — Dept. IPC, Dr. A.P.J. Abdul Kalam Award</div>
+  <div class="hack-item"><strong>Best Cadet in Semaphore</strong> — NCC Residential Camp</div>
+  <div class="hack-item"><strong>Runner-Up</strong> — F-ZONAL Basketball Tournament</div>
+</div>
+
+<div class="sec-title">Membership &amp; Roles</div>
+<div class="mem-item"><strong>Content Secretary,</strong> COSMO Club, REC — Leading event content creation and team coordination. (2025 – 2026)</div>
+<div class="mem-item"><strong>Content Vice Secretary,</strong> COSMO Club, REC — Assisted in content planning and coordination for events. (2024 – 2025)</div>
+<div class="mem-item"><strong>Class Representative,</strong> REC — Bridge between students and faculty for communication and coordination. (2022 – 2026)</div>
+<div class="mem-item"><strong>Chairperson,</strong> IEEE RAS, REC — Led robotics events and team planning. (2023 – 2024)</div>
+
+</body>
+</html>
